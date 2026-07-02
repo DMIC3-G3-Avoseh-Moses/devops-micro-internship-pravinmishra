@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+Most people often chase bigger paychecks, believing higher income guarantees wealth. But true financial security is built through consistent saving, not constant earning. A modest income with strong saving habits can create freedom, stability, and long-term growth, while high income without discipline often disappears quickly if not properly managed.
 
 ---
 
@@ -55,11 +55,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Consistency beats intensity
 
 ### Evidence from my life
 
-Add your answer here...
+Small actions repeated daily outperform occasional bursts of effort in fitness, learning, money, and relationships. Results usually come from compounding, not dramatic breakthroughs.
 
 ---
 
@@ -67,11 +67,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Attention shapes reality
 
 ### Evidence from my life
 
-Add your answer here...
+What you repeatedly focus on grows like skills, fears, opportunities, or problems. Attention acts like a multiplier.
 
 ---
 
@@ -79,11 +79,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Feedback beats ego
 
 ### Evidence from my life
 
-Add your answer here...
+Fast improvement comes from failing, testing, adjusting, and repeating. Reality rewards adaptation, not certainty.
 
 ---
 
@@ -135,13 +135,23 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+By 2030, he had established himself as a highly skilled cloud security and DevOps engineer, building on his early experience as an IAM IT Support Engineer. What started with managing identity systems and access controls evolved into a broader expertise in cloud infrastructure, automation, and cybersecurity.
+
+Over the years, he built and deployed secure cloud environments using platforms like Amazon Web Services, Microsoft Azure, and Google Cloud. He shipped infrastructure automation projects using tools like Terraform and Ansible, creating scalable systems that improved deployment speed and reduced security risks. His portfolio demonstrated real-world projects in IAM automation, cloud monitoring, CI/CD pipelines, and threat detection systems.
+
+His GitHub profile became proof of his growth, filled with security-focused scripts, infrastructure-as-code repositories, and open-source contributions. He published technical blogs about identity governance, cloud security best practices, DevOps pipelines, and cybersecurity fundamentals, making complex topics easier for aspiring engineers.
+
+To strengthen his expertise, he earned certifications such as AWS Solutions Architect, Microsoft Azure Security Engineer, and cybersecurity credentials focused on ethical hacking and security operations. These certifications validated his technical knowledge and expanded his career opportunities.
+
+Professionally, he secured a senior Cloud Security Engineer role, where he led secure infrastructure projects, improved IAM frameworks, and mentored junior engineers transitioning into security and DevOps. He contributed to security communities, participated in capture-the-flag competitions, and helped organizations improve compliance and access security.
+
+He relocated to a stronger tech hub, expanding his network and exposure to larger-scale systems. Financially, he built stability through disciplined saving and long-term investing. By then, his 2.0 version had become clear: a respected engineer known for securing systems, automating infrastructure, and leading with technical excellence.
 
 ### Public Link
 
 Paste your link here:
 
-`__________________________`
+`___https://www.linkedin.com/posts/moses-avoseh_join-the-dmi-devops-micro-internship-share-7478342657078022144-UEIn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ_______________________`
 
 ---
 
@@ -173,7 +183,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+There were moments when I took shortcuts to save time or avoid pressure, even when I knew it was not the best or most honest approach. At first, it felt like relief because the problem seemed solved quickly. But later, it created guilt and stress. I kept thinking about whether the shortcut would be exposed or cause bigger problems. That feeling of regret made me realize that short-term convenience often creates long-term discomfort. It taught me that integrity matters more than speed, because peace of mind is difficult to maintain when actions do not align with personal values.
 
 ---
 
@@ -199,16 +209,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Atomic Habits  by James Clear
+2. Deep Work  by Cal Newport
+3. The Psychology of Persuation  by Kevin Hogan
+4. The 7 Habits of Highly Effective People  by Stephen R. Covey
+5. How to Win Friends and Influence People  by Dale Carnegie
+6. Can't Hurt Me  by David Goggins
+7. The Phoenix Project  by Gene Kim
+8. The DevOps Handbook  by Gene Kim, Jez Humble, and Patrick Debois
+9. Zero Trust Security  by Jason Garbis
+10. The Pragmatic Programmer  by Andrew Hunt and David Thomas
 
 ---
 
@@ -237,16 +247,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning hours spent on DevOps, cloud security, and cybersecurity
+* Hands-on labs completed (IAM, cloud, networking, security testing)
+* Projects built and deployed (CI/CD pipelines, IAM automation, cloud infrastructure)
+* GitHub commits and repositories updated (code, scripts, documentation)
+* Certifications completed and exam attempts (AWS, Azure, security)
+* Deep work sessions focused on skill-building and problem-solving
+* Physical training sessions or workouts completed weekly
+* Sleep duration and sleep consistency tracking
+* Daily focus blocks without distractions (phone/social media control)
+* Personal savings rate and monthly expense tracking
 
 ---
 
@@ -272,7 +282,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes
 
 ---
 
@@ -290,7 +300,9 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+* Mon–Fri: 60–90 min deep work (DevOps / cloud security / IAM labs)
+* Sat: Hands-on project building (CI/CD, cloud setup, security automation)
+* Sun: Weekly review + planning + light learning (reading or notes)
 
 ---
 
@@ -298,11 +310,11 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Weekdays (Mon–Fri): 9:00 AM – 10:00 AM
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+5–6 focused sessions per week
 
 ---
 
@@ -310,13 +322,15 @@ Add your answer here...
 
 Examples:
 
-* Phone rules
-* Social media rules
-* Environment setup
+* Phone kept on silent / away during deep work sessions
+* No social media before completing daily learning block
+* Use full-screen mode for labs and coding environments
 
 #### My Distraction Rules
 
-Add your answer here...
+
+* No multitasking during study blocks
+* Environment setup: clean desk, single laptop focus, no background TV
 
 ---
 
@@ -324,27 +338,27 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+Consistency matters more than motivation. Small daily progress in cloud and security builds real technical confidence faster than occasional intense effort.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+Overthinking and delaying hands-on practice instead of building and breaking things in labs.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Daily 60-minute DevOps practice at 9:00 AM focused only on one topic (IAM, CI/CD, or cloud security).
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`_https://www.linkedin.com/posts/moses-avoseh_join-the-dmi-devops-micro-internship-activity-7478342659993149442-nE-A?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ_________________________`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
+- LinkedIn Post URL: **(https://www.linkedin.com/posts/moses-avoseh_join-the-dmi-devops-micro-internship-share-7478342657078022144-UEIn/)**  
 - Blog / Medium : **ADD LINK HERE**  
 
 ---
