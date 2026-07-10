@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![Med](<Publish 1.png>)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+`https://medium.com/@avoseh.mayowa/reflection-week-2-bc5faa77f7d9`
 
 ---
 
@@ -92,7 +92,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![L](<LinkedLn post.png .png>)
 
 ---
 
@@ -101,14 +101,32 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Week 2 Reflection
+
+Week 2 was both challenging and rewarding. This week, I explored Claude Code, Memory, and Permissions, and gained a better understanding of how AI can support software development beyond simply generating code.
+
+One of my biggest takeaways was learning that tools like Claude Code are designed to improve workflows and make development more organized. I also learned how Memory helps AI maintain context across interactions, making collaboration more efficient, while Permissions showed me why managing access is essential for keeping projects secure and reducing mistakes.
+
+At first, some of these concepts felt overwhelming because they were completely new to me. However, by reviewing the lessons, completing the assignments, and practicing the examples, I gradually became more confident. This experience reminded me that learning new technology takes patience and consistency.
+
+The most valuable lesson I learned this week is to focus on understanding the purpose behind each tool instead of trying to memorize every feature. Having the right mindset makes it much easier to connect concepts and apply them in real projects.
+
+
+I am looking forward to applying these skills in future projects and continuing to grow throughout this learning journey.
+
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( [https://discord.pravinmishra.com/](https://discord.pravinmishra.com/) ).
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
+
+View image
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+`https://www.linkedin.com/posts/moses-avoseh_dmibypravinmishra-agenticai-claudecode-share-7481349598222098432-Ggdm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ`
 
 ---
 
@@ -124,15 +142,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [✅ Completed ] Blog written with required structure
+* [✅ Completed] Blog includes at least 2–3 Week 2 topics
+* [✅ Completed ] Blog is publicly accessible
+* [✅ Completed ] LinkedIn post created
+* [✅ Completed ] Required P.S. line included
+* [✅ Completed ] LinkedIn post content copied in submission field
+* [✅ Completed ] Blog link added
+* [✅ Completed ] LinkedIn post link added
+* [✅ Completed ] Screenshots added to GitHub repo
 
 ---
 

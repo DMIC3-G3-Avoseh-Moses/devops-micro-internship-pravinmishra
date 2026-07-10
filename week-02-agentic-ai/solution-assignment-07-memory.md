@@ -20,7 +20,7 @@ Identify where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-Add your screenshot here.
+![FP](<File Path.png>)
 
 ---
 
@@ -34,13 +34,13 @@ Store project-specific rules and configurations into Claude’s memory and verif
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-Add your screenshot here.
+![MR](<Memory Response.png>)
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-Add your screenshot here.
+![MV](<Memory in vscode.png>),![MV](<Memory in vscode 2.png>)
 
 ---
 
@@ -54,7 +54,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-Add your screenshot here.
+![NR](<Claude No response.png>)
 
 ---
 
@@ -68,13 +68,13 @@ Verify that Claude correctly recalls stored memory after a full session reset.
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-Add your screenshot here.
+![CR](<Memory Response-1.png>),![HS](<Heroes session.png>)
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-Add your screenshot here.
+![NJS](No.png)
 
 ---
 
@@ -91,19 +91,19 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/DMIC3-G3-Avoseh-Moses/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ---
 
 # Completion Checklist
 
-- [ ] Memory file path identified (Screenshot 1)
-- [ ] Memory successfully saved via prompt (Screenshot 2)
-- [ ] `MEMORY.md` shows stored content (Screenshot 3)
-- [ ] Fresh session opened after full restart (Screenshot 4)
-- [ ] Claude recalled hero colors correctly (Screenshot 5)
-- [ ] Claude refused JavaScript request based on memory (Screenshot 6)
-- [ ] All screenshots added and committed to GitHub repo
+- [✅ Completed ] Memory file path identified (Screenshot 1)
+- [✅ Completed ] Memory successfully saved via prompt (Screenshot 2)
+- [✅ Completed ] `MEMORY.md` shows stored content (Screenshot 3)
+- [✅ Completed ] Fresh session opened after full restart (Screenshot 4)
+- [✅ Completed ] Claude recalled hero colors correctly (Screenshot 5)
+- [✅ Completed ] Claude refused JavaScript request based on memory (Screenshot 6)
+- [✅ Completed ] All screenshots added and committed to GitHub repo
 
 ---
 
