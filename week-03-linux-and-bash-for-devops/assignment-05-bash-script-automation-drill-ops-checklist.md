@@ -463,6 +463,7 @@ The script uses variables to store information such as my name, assignment name,
 Paste your LinkedIn post URL here:
 
 `https://www.linkedin.com/posts/moses-avoseh_completed-bash-script-automation-drill-share-7483839881975242753-a1Uw/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ`
+`Add your URL here`
 
 ---
 

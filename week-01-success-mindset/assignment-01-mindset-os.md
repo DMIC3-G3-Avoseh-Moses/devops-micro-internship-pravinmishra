@@ -131,7 +131,7 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
 
 Include this line:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
 
 ## Your Article
 
@@ -151,6 +151,7 @@ He relocated to a stronger tech hub, expanding his network and exposure to large
 
 Paste your link here:
 
+`Add your URL here`
 `___https://www.linkedin.com/posts/moses-avoseh_join-the-dmi-devops-micro-internship-share-7478342657078022144-UEIn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ_______________________`
 
 ---
@@ -352,7 +353,7 @@ Daily 60-minute DevOps practice at 9:00 AM focused only on one topic (IAM, CI/CD
 
 Paste your LinkedIn post link here:
 
-`_https://www.linkedin.com/posts/moses-avoseh_join-the-dmi-devops-micro-internship-activity-7478342659993149442-nE-A?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ_________________________`
+`__________________________`
 
 ---
 

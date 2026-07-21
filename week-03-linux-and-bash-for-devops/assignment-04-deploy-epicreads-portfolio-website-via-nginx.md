@@ -121,6 +121,7 @@ Verify the deployed website and Nginx service are healthy.
 Paste your LinkedIn post URL here:
 
 `https://www.linkedin.com/posts/moses-avoseh_devops-deployment-handson-linux-nginx-share-7483693976903061504-G8G0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ`
+`Add your URL here`
 
 ---
 

@@ -393,6 +393,7 @@ Cloud resources should be stopped or terminated when not in use to avoid unneces
 Paste your LinkedIn post URL here:
 
 `https://www.linkedin.com/posts/moses-avoseh_strengthening-my-devops-server-management-share-7483675302179614721-iDNW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ`
+`Add your URL here`
 
 ---
 
