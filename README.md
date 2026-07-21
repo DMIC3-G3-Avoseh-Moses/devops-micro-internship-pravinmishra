@@ -18,7 +18,7 @@
 | **LinkedIn** | [Avoseh-Moses](www.linkedin.com/in/moses-avoseh) |
 | **Location** | Lagos, Nigeria |
 | **Background** | Cloud, IT Engineer |
-| **Goal** | Be expert in Cloud security |
+| **Goal** | Become an expert in Cloud security |
 
 ---
 
@@ -74,10 +74,10 @@ This is not a course. It is an internship-style program — real deployments, re
 <[![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
 <!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+<! [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
 <!-- Week 03 → Linux & Bash for DevOps -->
-<!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
+<! [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
 <!-- Week 04 → Git & GitHub -->
 <!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
@@ -132,8 +132,8 @@ This is not a course. It is an internship-style program — real deployments, re
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved |  https://www.linkedin.com/posts/moses-avoseh_join-the-dmi-devops-micro-internship-activity-7478342659993149442-nE-A?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ | https://medium.com/@avoseh.mayowa/my-journey-72af24b1d01d |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
-| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/moses-avoseh_dmibypravinmishra-agenticai-claudecode-activity-7481349601279553536-xLt0?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ | https://medium.com/@avoseh.mayowa/reflection-week-2-bc5faa77f7d9 |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/moses-avoseh_built-an-ai-assisted-linux-health-check-workflow-activity-7483998668019294208-eJCK?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ | https://medium.com/@avoseh.mayowa/building-an-ai-assisted-linux-health-check-with-bash-and-agentic-ai-b0c8a89c86e0 |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |

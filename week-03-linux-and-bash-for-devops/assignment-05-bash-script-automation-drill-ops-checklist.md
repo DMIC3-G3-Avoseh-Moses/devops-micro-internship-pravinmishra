@@ -444,8 +444,8 @@ Functions help divide a large script into smaller, organized sections. They make
 
 **3. Which functions did you create in this script?**
 
-Add your answer here.
 I created four functions in the script: print_header to display the assignment header, print_user_details to show my name and assignment information, check_files to verify that the required directory and file exist, and print_tools to display each tool stored in the array using a loop.
+
 ---
 
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
