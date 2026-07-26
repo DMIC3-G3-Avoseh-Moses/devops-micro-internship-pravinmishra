@@ -91,7 +91,7 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 Paste your Linkedin post link here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/moses-avoseh_dmibypravinmishra-agenticai-claudecode-activity-7487245572056186881-_pTj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ`
 
 ---
 
@@ -100,30 +100,19 @@ Paste your Linkedin post link here:
 Paste your forked repository URL here:
 
 `https://github.com/DMIC3-G3-Avoseh-Moses/Ultimate-Agentic-DevOps-with-Claude-Code.git`
-`Add your URL here`
 
 ---
 
 # Completion Checklist
 
-<<<<<<< HEAD:week-02-agentic-ai/solution-assignment-07-memory.md
-- [✅ Completed ] Memory file path identified (Screenshot 1)
-- [✅ Completed ] Memory successfully saved via prompt (Screenshot 2)
-- [✅ Completed ] `MEMORY.md` shows stored content (Screenshot 3)
-- [✅ Completed ] Fresh session opened after full restart (Screenshot 4)
-- [✅ Completed ] Claude recalled hero colors correctly (Screenshot 5)
-- [✅ Completed ] Claude refused JavaScript request based on memory (Screenshot 6)
-- [✅ Completed ] All screenshots added and committed to GitHub repo
-=======
-- [ ] Memory file path identified (Screenshot 1)
-- [ ] Memory successfully saved via prompt (Screenshot 2)
-- [ ] `MEMORY.md` shows stored content (Screenshot 3)
-- [ ] Fresh session opened after full restart (Screenshot 4)
-- [ ] Claude recalled hero colors correctly (Screenshot 5)
-- [ ] Claude refused JavaScript request based on memory (Screenshot 6)
-- [ ] All screenshots added and committed to GitHub repo
-- [ ] Linkedin post created.
->>>>>>> upstream/main:week-02-agentic-ai/assignment-07-memory.md
+- [✅ Completed] Memory file path identified (Screenshot 1)
+- [✅ Completed] Memory successfully saved via prompt (Screenshot 2)
+- [✅ Completed] `MEMORY.md` shows stored content (Screenshot 3)
+- [✅ Completed] Fresh session opened after full restart (Screenshot 4)
+- [✅ Completed] Claude recalled hero colors correctly (Screenshot 5)
+- [✅ Completed] Claude refused JavaScript request based on memory (Screenshot 6)
+- [✅ Completed] All screenshots added and committed to GitHub repo
+- [✅ Completed] Linkedin post created.
 
 ---
 

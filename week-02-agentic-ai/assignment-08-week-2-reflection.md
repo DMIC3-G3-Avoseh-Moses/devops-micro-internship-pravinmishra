@@ -55,7 +55,7 @@ You can publish your blog on:
 Blog Link:
 
 `https://medium.com/@avoseh.mayowa/reflection-week-2-bc5faa77f7d9`
-`Add your URL here`
+
 
 ---
 
@@ -127,7 +127,7 @@ View image
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+`https://www.linkedin.com/posts/moses-avoseh_dmibypravinmishra-agenticai-claudecode-activity-7481349601279553536-xLt0?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ`
 
 ---
 
