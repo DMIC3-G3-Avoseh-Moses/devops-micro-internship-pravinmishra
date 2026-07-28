@@ -136,9 +136,9 @@ Your submission must include:
 - [✅ Completed] `post-tool-logger.sh` created with PostToolUse logging logic
 - [✅ Completed] `settings.json` created with allow and deny permissions
 - [✅ Completed] `settings.json` configured to connect all three hooks:
-  - [✅ Completed] UserPromptSubmit
-  - [✅ Completed] PreToolUse
-  - [✅ Completed] PostToolUse
+- [✅ Completed] UserPromptSubmit
+- [✅ Completed] PreToolUse
+- [✅ Completed] PostToolUse
 - [✅ Completed] Destructive prompt test shows UserPromptSubmit blocked the request
 - [✅ Completed] Terraform destroy command test shows PreToolUse intercepted the command
 - [✅ Completed] Terraform validate test shows PostToolUse created the log entry

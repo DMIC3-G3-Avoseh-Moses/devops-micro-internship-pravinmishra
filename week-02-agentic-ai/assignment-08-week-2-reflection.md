@@ -54,7 +54,7 @@ You can publish your blog on:
 
 Blog Link:
 
-`https://medium.com/@avoseh.mayowa/reflection-week-2-bc5faa77f7d9`
+`https://medium.com/@avoseh.mayowa/reflection-week-2-bc5faa77f7d9?sharedUserId=avoseh.mayowa`
 
 
 ---
