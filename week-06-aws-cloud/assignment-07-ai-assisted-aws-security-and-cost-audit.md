@@ -20,7 +20,7 @@ Confirm your AWS CLI is authenticated and can see the S3 bucket, EC2 instance(s)
 
 #### Screenshot 1 — Terminal showing your AWS identity and your S3, EC2, and RDS resources listed
 
-Add your screenshot here.
+![](screenshots/W6A7T1S1.png)
 
 ---
 
@@ -34,7 +34,7 @@ Create a `CLAUDE.md` in your workspace that tells Claude the audit script is rea
 
 #### Screenshot 2 — `CLAUDE.md` open showing the project overview and safety rules
 
-Add your screenshot here.
+![](screenshots/W6A7T1S2.png)
 
 ---
 
@@ -48,7 +48,7 @@ Ask Claude Code to propose a read-only audit plan covering five checks — S3 pu
 
 #### Screenshot 3 — Claude's proposed five-check audit plan
 
-Add your screenshot here.
+![](screenshots/W6A7T3S3.png)
 
 ---
 
@@ -62,7 +62,7 @@ Write a Bash script that runs the five checks from Task 3 using only read-only A
 
 #### Screenshot 4 — The script open in your editor, showing the checks and the report logic
 
-Add your screenshot here.
+![](screenshots/W6A7T4S4.png)
 
 ---
 
@@ -76,7 +76,7 @@ Run the script against your live AWS account and review the report honestly, not
 
 #### Screenshot 5 — Script output showing your Full Name and all five check results
 
-Add your screenshot here.
+![](screenshots/W6A7T5S5.png)
 
 ---
 
@@ -90,13 +90,13 @@ Turn the script into a Claude Code skill named `/aws-audit` that runs the script
 
 #### Screenshot 6 — Skill file showing the restricted tool access
 
-Add your screenshot here.
+![](screenshots/W6A7T6S6.png)
 
 ---
 
 #### Screenshot 7 — `/aws-audit` output showing the findings and Claude's recommendation
 
-Add your screenshot here.
+![](screenshots/W6A7T6S7.png)
 
 ---
 
@@ -110,13 +110,13 @@ Pick one real finding from your baseline report (or deliberately open a security
 
 #### Screenshot 8 — Terminal output of the remediation command you ran yourself
 
-Add your screenshot here.
+![](screenshots/W6A7T7S8.png)
 
 ---
 
 #### Screenshot 9 — Second script run showing the finding now passing
 
-Add your screenshot here.
+![](screenshots/W6A7T7S9.png)
 
 ---
 
@@ -124,7 +124,19 @@ Add your screenshot here.
 
 Map this assignment to Gather → Analyze → Human Act → Verify: which step did the script perform, which did Claude perform, and why must the remediation command always be run by you and never by Claude?
 
-Add your answer here
+Gather → Analyze → Human Act → Verify mapping:
+
+Gather — the Bash script (5 aws CLI checks: S3 public access, SSH/MySQL exposure, RDS public accessibility, EBS encryption)
+Analyze — mostly the script's hardcoded PASS/WARN/FAIL logic; Claude added a layer on top, spotting that a failure was actually a script bug (wrong bucket name) vs. a genuine finding
+Human Act — you, exclusively: every remediation command (revoking the SSH rule, rotating the exposed key, potentially locking down S3) was run by you in your own terminal
+Verify — re-running the script to confirm the fix actually worked (FAIL → PASS)
+
+Why remediation must always be human-run, never Claude-run:
+
+Claude has no execution access to your AWS account — it can only write commands, not run them
+Changes can be disruptive/irreversible (e.g., locking down a bucket that's actually meant to be public) — a human needs to be the decision point, not just the copy-paste hands
+Accountability — AWS CloudTrail logs need to trace back to your authenticated action, not an AI's
+The exposed access key earlier in this chat is a live example of why that boundary matters — it limits the blast radius when something goes wrong
 
 ---
 
@@ -139,15 +151,15 @@ Your submission must include:
 
 # Completion Checklist
 
-- [ ] Task 1: AWS resources confirmed and workspace created (Screenshot 1)
-- [ ] Task 2: `CLAUDE.md` created with safety rules (Screenshot 2)
-- [ ] Task 3: Claude proposed a read-only five-check audit plan (Screenshot 3)
-- [ ] Task 4: Audit script built, executable, and syntax-checked (Screenshot 4)
-- [ ] Task 5: Baseline audit run and reviewed honestly (Screenshot 5)
-- [ ] Task 6: `/aws-audit` skill built and run, with no `Write` access (Screenshots 6–7)
-- [ ] Task 7: A real finding fixed by hand and re-verified as passing (Screenshots 8–9)
-- [ ] Gather → Analyze → Human Act → Verify reflection completed (Notes)
-- [ ] No AWS credentials or unblurred account IDs exposed
+- [✅ Completed] Task 1: AWS resources confirmed and workspace created (Screenshot 1)
+- [✅ Completed] Task 2: `CLAUDE.md` created with safety rules (Screenshot 2)
+- [✅ Completed] Task 3: Claude proposed a read-only five-check audit plan (Screenshot 3)
+- [✅ Completed] Task 4: Audit script built, executable, and syntax-checked (Screenshot 4)
+- [✅ Completed] Task 5: Baseline audit run and reviewed honestly (Screenshot 5)
+- [✅ Completed] Task 6: `/aws-audit` skill built and run, with no `Write` access (Screenshots 6–7)
+- [✅ Completed] Task 7: A real finding fixed by hand and re-verified as passing (Screenshots 8–9)
+- [✅ Completed] Gather → Analyze → Human Act → Verify reflection completed (Notes)
+- [✅ Completed] No AWS credentials or unblurred account IDs exposed
 
 ---
 
