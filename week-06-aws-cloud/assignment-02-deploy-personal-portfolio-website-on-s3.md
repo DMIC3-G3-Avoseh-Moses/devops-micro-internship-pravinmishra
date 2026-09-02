@@ -62,7 +62,7 @@ Enable S3 Static Website Hosting with `index.html` as the index document and `er
 
 #### Screenshot 4 — Static website hosting enabled screen showing the website endpoint
 
-Add your screenshot here.
+![](screenshots/W6A2T4S4.png)
 
 ---
 
@@ -76,7 +76,7 @@ Adjust Block Public Access settings and save a bucket policy that grants public 
 
 #### Screenshot 5 — Bucket policy page showing the policy saved successfully, with the bucket name visible
 
-Add your screenshot here.
+![](screenshots/W6A2T5S5.png)
 
 ---
 
@@ -90,7 +90,7 @@ Load the site through the S3 website endpoint and confirm the homepage, images, 
 
 #### Screenshot 6 — Browser showing the live website with the S3 website endpoint visible in the address bar
 
-Add your screenshot here.
+![](screenshots/W6A2T6S6.png)
 
 ---
 
@@ -104,7 +104,7 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 
 #### Screenshot 7 (optional) — Before/after view, or a browser view showing the updated text
 
-Add your screenshot here.
+![](screenshots/W6A2T7S71.png),![](screenshots/W6A2T7S7.png)
 
 ---
 
@@ -118,15 +118,15 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Template downloaded/cloned with `index.html` confirmed (Screenshot 1)
-- [ ] Task 2: Globally unique S3 bucket created (Screenshot 2)
+- [✅ Completed] Task 1: Template downloaded/cloned with `index.html` confirmed (Screenshot 1)
+- [✅ Completed] Task 2: Globally unique S3 bucket created (Screenshot 2)
 - [ ] Task 3: Website files uploaded with `index.html` at bucket root (Screenshot 3)
-- [ ] Task 4: Static website hosting enabled (Screenshot 4)
-- [ ] Task 5: Public-read bucket policy saved (Screenshot 5)
-- [ ] Task 6: Live website verified through the S3 website endpoint (Screenshot 6)
-- [ ] Task 7: Optional small update re-uploaded and verified (Screenshot 7)
-- [ ] S3 Website Endpoint URL included
-- [ ] No sensitive account information exposed
+- [✅ Completed] Task 4: Static website hosting enabled (Screenshot 4)
+- [✅ Completed] Task 5: Public-read bucket policy saved (Screenshot 5)
+- [✅ Completed] Task 6: Live website verified through the S3 website endpoint (Screenshot 6)
+- [✅ Completed] Task 7: Optional small update re-uploaded and verified (Screenshot 7)
+- [✅ Completed] S3 Website Endpoint URL included
+- [✅ Completed] No sensitive account information exposed
 
 ---
 
