@@ -124,8 +124,6 @@ Pick one real finding from your baseline report (or deliberately open a security
 
 Map this assignment to Gather → Analyze → Human Act → Verify: which step did the script perform, which did Claude perform, and why must the remediation command always be run by you and never by Claude?
 
-Gather → Analyze → Human Act → Verify mapping:
-
 Gather — the Bash script (5 aws CLI checks: S3 public access, SSH/MySQL exposure, RDS public accessibility, EBS encryption)
 Analyze — mostly the script's hardcoded PASS/WARN/FAIL logic; Claude added a layer on top, spotting that a failure was actually a script bug (wrong bucket name) vs. a genuine finding
 Human Act — you, exclusively: every remediation command (revoking the SSH rule, rotating the exposed key, potentially locking down S3) was run by you in your own terminal
