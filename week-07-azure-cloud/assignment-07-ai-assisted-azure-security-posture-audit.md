@@ -20,7 +20,7 @@ Confirm your Azure CLI is authenticated and can see the VM, network, storage acc
 
 #### Screenshot 1 — `az account show` and `az vm list -d -o table` confirming your subscription and running VM (subscription ID partially blurred)
 
-Add your screenshot here.
+![](screenshots/W7A7T1S1.png)
 
 ---
 
@@ -34,7 +34,7 @@ Create a `CLAUDE.md` for this workspace that tells Claude what the audit covers 
 
 #### Screenshot 2 — `CLAUDE.md` open in your editor showing the project overview, audit workflow, and safety rules
 
-Add your screenshot here.
+![](screenshots/W7A7T2S2.png).
 
 ---
 
@@ -48,7 +48,7 @@ Ask Claude Code to read `CLAUDE.md` and propose a read-only, four-check audit pl
 
 #### Screenshot 3 — Claude Code showing the four-check plan, with no files created or modified
 
-Add your screenshot here.
+![](screenshots/W7A7T3S3.png)
 
 ---
 
@@ -62,13 +62,13 @@ Write a Bash script that runs the four checks from Task 3 using read-only `az` c
 
 #### Screenshot 4 — Your script open in your editor, showing the check functions and the `az` commands they call
 
-Add your screenshot here.
+![](screenshots/W7A7T4S4.png)
 
 ---
 
 #### Screenshot 5 — Output of `bash -n` (no syntax errors) and `ls -l` showing the script is executable
 
-Add your screenshot here.
+![](screenshots/W7A7T4S5.png)
 
 ---
 
@@ -82,7 +82,7 @@ Run the script against your live resources and read the report honestly, even if
 
 #### Screenshot 6 — Script output showing your Full Name and all four checks with a PASS, WARN, or FAIL result
 
-Add your screenshot here.
+![](screenshots/W7A7T5S6.png)
 
 ---
 
@@ -96,13 +96,13 @@ Create a Claude Code skill restricted to read-only tools (no `Write`) that runs 
 
 #### Screenshot 7 — Your skill file's frontmatter showing `allowed-tools` without `Write`
 
-Add your screenshot here.
+![](screenshots/W7A7T6S7.png)
 
 ---
 
 #### Screenshot 8 — `/azure-audit` output showing the baseline findings and Claude's explanation
 
-Add your screenshot here.
+![](screenshots/W7A7T6S8.png)
 
 ---
 
@@ -116,19 +116,19 @@ Pick one WARN or FAIL finding (or deliberately open an NSG rule to port 22 from 
 
 #### Screenshot 9 — Saved report showing the original finding before the fix
 
-Add your screenshot here.
+![](screenshots/W7A7T7S9.png)
 
 ---
 
 #### Screenshot 10 — Terminal output of the remediation command you ran yourself
 
-Add your screenshot here.
+![](screenshots/W7A7T7S10.png)
 
 ---
 
 #### Screenshot 11 — Second `/azure-audit` run (or report) showing the finding resolved
 
-Add your screenshot here.
+![](screenshots/W7A7T7S11.png)
 
 ---
 
@@ -136,7 +136,7 @@ Add your screenshot here.
 
 Compare this assignment to the AWS audit you built in Week 6: which finding categories map to each other across the two clouds, and what stayed exactly the same about the workflow even though the `az`/`aws` commands are completely different?
 
-Add your answer here
+Across both the AWS and Azure audits, the same four security questions reappeared in different clothing — NSG rules mirrored Security Groups in checking for internet-exposed SSH/RDP, Blob public access mirrored S3 bucket exposure, Managed Disk encryption mirrored EBS volume encryption, and MySQL public network access mirrored RDS public accessibility. What stayed completely unchanged, despite `az` and `aws` having entirely different syntax and resource models, was the actual engineering workflow: a read-only Bash script using variables, functions, loops, and exit codes to gather deterministic evidence; a `CLAUDE.md` file defining strict safety boundaries before any code was written; and a manually invoked Skill that could explain WARN/FAIL findings and recommend a fix but never execute one. In both assignments, the Agentic Loop of Gather → Analyze → Human Act → Verify kept Claude strictly in an advisory role, with every infrastructure change reviewed and executed by me, not the AI. This proved that the cloud provider only changes the commands you run — it doesn't change the underlying discipline of keeping evidence reliable, AI advisory-only, and humans accountable for every real change.
 
 ---
 
@@ -152,15 +152,15 @@ Your submission must include:
 
 # Completion Checklist
 
-- [ ] Task 1: Azure resources confirmed and workspace created (Screenshot 1)
-- [ ] Task 2: `CLAUDE.md` created with project context and safety rules (Screenshot 2)
-- [ ] Task 3: Claude produced a read-only four-check plan before any script existed (Screenshot 3)
-- [ ] Task 4: Audit script built, syntax-checked, and executable (Screenshots 4–5)
-- [ ] Task 5: Baseline audit run and reviewed honestly (Screenshot 6)
-- [ ] Task 6: `/azure-audit` skill created with no `Write` permission and run successfully (Screenshots 7–8)
-- [ ] Task 7: A real finding fixed by you (not Claude) and re-verified as resolved (Screenshots 9–11)
-- [ ] Notes comparing this to the Week 6 AWS audit completed
-- [ ] No subscription IDs, tenant IDs, or credentials exposed
+- [✅ Completed] Task 1: Azure resources confirmed and workspace created (Screenshot 1)
+- [✅ Completed] Task 2: `CLAUDE.md` created with project context and safety rules (Screenshot 2)
+- [✅ Completed] Task 3: Claude produced a read-only four-check plan before any script existed (Screenshot 3)
+- [✅ Completed] Task 4: Audit script built, syntax-checked, and executable (Screenshots 4–5)
+- [✅ Completed] Task 5: Baseline audit run and reviewed honestly (Screenshot 6)
+- [✅ Completed] Task 6: `/azure-audit` skill created with no `Write` permission and run successfully (Screenshots 7–8)
+- [✅ Completed] Task 7: A real finding fixed by you (not Claude) and re-verified as resolved (Screenshots 9–11)
+- [✅ Completed] Notes comparing this to the Week 6 AWS audit completed
+- [✅ Completed] No subscription IDs, tenant IDs, or credentials exposed
 
 ---
 
