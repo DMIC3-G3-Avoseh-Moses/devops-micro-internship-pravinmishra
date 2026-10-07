@@ -1,0 +1,22 @@
+========================================
+Azure Security Posture Audit Report
+========================================
+Full Name: Moses Avoseh
+Timestamp: 2026-10-06T22:02:48Z
+Resource Group: audit-rg
+VM: audit-vm
+Storage Account: auditstoragemoses
+MySQL Server: audit-mysql
+
+[PASS] No NSG rule allows unrestricted inbound SSH or RDP access
+[PASS] Storage Account blob public access is disabled
+[PASS] VM OS managed disk is encrypted at rest (EncryptionAtRestWithPlatformKey)
+[FAIL] Azure Database for MySQL has public network access enabled
+
+Summary:
+PASS: 3
+WARN: 0
+FAIL: 1
+Overall Status: FAIL
+Script Exit Code: 2
+Report File: /c/Users/USER/week-07-azure-audit/reports/azure-security-report.txt
