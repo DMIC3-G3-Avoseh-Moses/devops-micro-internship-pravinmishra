@@ -20,7 +20,7 @@ Create a `terraform-react-azure` project directory for the Azure Terraform confi
 
 #### Screenshot 1 — File Explorer, VS Code, or terminal showing the `terraform-react-azure` project directory
 
-Add your screenshot here.
+![](screenshots/W8A3T1S1.png)
 
 ---
 
@@ -34,7 +34,7 @@ Define the resource group, virtual network/subnet, Network Security Group (SSH 2
 
 #### Screenshot 2 — VS Code showing `main.tf` with the required Azure resources, with any password or sensitive values hidden
 
-Add your screenshot here.
+![](screenshots/W8A3T2S2.png)
 
 ---
 
@@ -48,7 +48,7 @@ Run `terraform init` and confirm the working directory initializes successfully.
 
 #### Screenshot 3 — Terminal showing successful `terraform init` output
 
-Add your screenshot here.
+![](screenshots/W8A3T3S3.png)
 
 ---
 
@@ -62,13 +62,13 @@ Review `terraform plan`, run `terraform apply`, and record the VM's public IP.
 
 #### Screenshot 4 — Terraform apply output showing successful completion
 
-Add your screenshot here.
+![](screenshots/W8A3T4S4.png)
 
 ---
 
 #### Screenshot 5 — Azure portal showing the Virtual Machine running and its public IP
 
-Add your screenshot here.
+![](screenshots/W8A3T5S5.png)
 
 ---
 
@@ -82,7 +82,7 @@ Establish an SSH session with the Ubuntu VM through its public IP.
 
 #### Screenshot 6 — Terminal showing a successful SSH connection to the Azure VM
 
-Add your screenshot here.
+![](screenshots/W8A3T6S6.png)
 
 ---
 
@@ -96,7 +96,7 @@ Update Ubuntu and install Node.js, npm, and Git.
 
 #### Screenshot 7 — Terminal showing successful installation and the `node -v` and `npm -v` output
 
-Add your screenshot here.
+![](screenshots/W8A3T7S7.png)
 
 ---
 
@@ -110,13 +110,13 @@ Follow the `my-react-app` repository README to clone, install, and build the app
 
 #### Screenshot 8 — Terminal showing the successful React build
 
-Add your screenshot here.
+![](screenshots/W8A3T8S8.png)
 
 ---
 
 #### Screenshot 9 — Terminal showing that Nginx is active and running
 
-Add your screenshot here.
+![](screenshots/W8A3T8S9.png)
 
 ---
 
@@ -138,7 +138,11 @@ Add your screenshot here.
 
 Write a short summary of what you built and any issues you encountered and how you resolved them.
 
-Write your answer here.
+Summary of Work Completed
+
+I worked on deploying a React application on Azure using Terraform. I configured the required Azure infrastructure and used a cloud-init script to automate the installation of Node.js, npm, and Nginx and the deployment of the React application.
+
+Issues Encountered and Resolutions: I addressed Terraform configuration and deployment challenges by reviewing resource dependencies, checking cloud-init logs, and verifying Nginx service status. I also worked on organizing screenshots for submission and planned to clean up the Azure resources using terraform destroy after testing.
 
 ---
 
@@ -152,16 +156,16 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Task 1: `terraform-react-azure` project created (Screenshot 1)
-- [ ] Task 2: `main.tf` defines all required Azure resources (Screenshot 2)
-- [ ] Task 3: `terraform init` completed successfully (Screenshot 3)
-- [ ] Task 4: Plan applied and VM running with public IP (Screenshots 4–5)
-- [ ] Task 5: SSH connection verified (Screenshot 6)
-- [ ] Task 6: Node.js, npm, and Git installed (Screenshot 7)
-- [ ] Task 7: React app built and served through Nginx (Screenshots 8–9)
-- [ ] Task 8: App verified through the VM public IP (Screenshot 10)
-- [ ] Summary paragraph written (Notes)
-- [ ] No sensitive information exposed
+- [✅ Completed] Task 1: `terraform-react-azure` project created (Screenshot 1)
+- [✅ Completed] Task 2: `main.tf` defines all required Azure resources (Screenshot 2)
+- [✅ Completed] Task 3: `terraform init` completed successfully (Screenshot 3)
+- [✅ Completed] Task 4: Plan applied and VM running with public IP (Screenshots 4–5)
+- [✅ Completed] Task 5: SSH connection verified (Screenshot 6)
+- [✅ Completed] Task 6: Node.js, npm, and Git installed (Screenshot 7)
+- [✅ Completed] Task 7: React app built and served through Nginx (Screenshots 8–9)
+- [✅ Completed] Task 8: App verified through the VM public IP (Screenshot 10)
+- [✅ Completed] Summary paragraph written (Notes)
+- [✅ Completed] No sensitive information exposed
 
 ---
 

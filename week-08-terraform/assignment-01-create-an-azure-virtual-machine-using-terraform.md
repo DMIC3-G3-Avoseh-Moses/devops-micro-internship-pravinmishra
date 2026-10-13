@@ -20,13 +20,13 @@ Create a `terraform-azure-vm` project and define the resource group, virtual net
 
 #### Screenshot 1 — VS Code showing `main.tf` and the required Azure resources
 
-Add your screenshot here.
+![](screenshots/W8A1T1S1.png)
 
 ---
 
 #### Screenshot 2 — `main.tf` showing the public IP output and VM authentication configuration, with the password hidden or redacted
 
-Add your screenshot here.
+![](screenshots/W8A1T1S2.png)
 
 ---
 
@@ -40,7 +40,7 @@ Run `terraform init` and confirm the working directory initializes successfully.
 
 #### Screenshot 3 — Terminal showing successful `terraform init` output
 
-Add your screenshot here.
+![](screenshots/W8A1T2S3.png)
 
 ---
 
@@ -54,19 +54,19 @@ Review `terraform plan`, run `terraform apply`, and record the VM's public IP fr
 
 #### Screenshot 4 — Terraform plan summary showing the proposed resources
 
-Add your screenshot here.
+![](screenshots/W8A1T3S4.png)
 
 ---
 
 #### Screenshot 5 — Terraform apply output showing successful completion
 
-Add your screenshot here.
+![](screenshots/W8A1T3S5.png)
 
 ---
 
 #### Screenshot 6 — Terraform output showing the public IP of the VM
 
-Add your screenshot here.
+![](screenshots/W8A1T3S6.png)
 
 ---
 
@@ -80,7 +80,7 @@ Use Azure CLI to confirm the VM was created and is running.
 
 #### Screenshot 7 — Azure CLI output showing the VM name and running status
 
-Add your screenshot here.
+![](screenshots/W8A1T4S7.png)
 
 ---
 
@@ -94,7 +94,7 @@ Run `terraform destroy` to clean up the Azure resources after testing.
 
 #### Screenshot 8 — Terminal showing successful `terraform destroy` completion
 
-Add your screenshot here.
+![](screenshots/W8A1T5S8.png)
 
 ---
 
@@ -102,7 +102,7 @@ Add your screenshot here.
 
 Write a short paragraph explaining what you learned or any issues you encountered.
 
-Write your answer here.
+In this assignment I used Terraform to deploy an Azure environment as code: a resource group, virtual network, subnet, public IP, network interface and Ubuntu Linux VM, with the public IP exposed as an output. I learned that writing main.tf only describes the infrastructure, and nothing exists in Azure until terraform apply runs, which is why the resource group didn’t appear in the portal at first. The workflow of init, validate, plan and apply helped me catch problems before anything was created. I ran into a few issues along the way. Terraform wouldn’t run at first because I had downloaded the macOS build instead of the Windows one, and Git Bash couldn’t find the executable until I put it in a folder on my PATH. I also hit VM size capacity errors in some regions on my subscription, so I deployed to Poland Central with a different VM size than the example. The sample password also didn’t meet Azure’s complexity rules, so I used a stronger one and hid it in my screenshots. Overall, this showed me how Terraform makes infrastructure repeatable, and that terraform destroy gives a clean way to remove everything afterward and avoid unnecessary charges.
 
 ---
 
@@ -116,13 +116,13 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Task 1: `terraform-azure-vm` project created with all required resources defined (Screenshots 1–2)
-- [ ] Task 2: `terraform init` completed successfully (Screenshot 3)
-- [ ] Task 3: Plan reviewed and `terraform apply` completed, public IP recorded (Screenshots 4–6)
-- [ ] Task 4: VM verified as running via Azure CLI (Screenshot 7)
-- [ ] Task 5: `terraform destroy` completed successfully (Screenshot 8)
-- [ ] Learning/issues paragraph written (Notes)
-- [ ] No sensitive information exposed
+- [✅ Completed] Task 1: `terraform-azure-vm` project created with all required resources defined (Screenshots 1–2)
+- [✅ Completed] Task 2: `terraform init` completed successfully (Screenshot 3)
+- [✅ Completed] Task 3: Plan reviewed and `terraform apply` completed, public IP recorded (Screenshots 4–6)
+- [✅ Completed] Task 4: VM verified as running via Azure CLI (Screenshot 7)
+- [✅ Completed] Task 5: `terraform destroy` completed successfully (Screenshot 8)
+- [✅ Completed] Learning/issues paragraph written (Notes)
+- [✅ Completed] No sensitive information exposed
 
 ---
 
