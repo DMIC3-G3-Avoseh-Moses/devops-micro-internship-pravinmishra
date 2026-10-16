@@ -20,13 +20,13 @@ Confirm your existing Terraform project reports no pending changes, then create 
 
 #### Screenshot 1 — `terraform plan` showing no pending changes
 
-Add your screenshot here.
+![](screenshots/W8A6T1S1.png)
 
 ---
 
 #### Screenshot 2 — Folder structure showing the new workspace folders alongside your Terraform project
 
-Add your screenshot here.
+![](screenshots/W8A6T1S2.png)
 
 ---
 
@@ -40,7 +40,7 @@ Add a `CLAUDE.md` describing the read-only drift-review workflow and the safety 
 
 #### Screenshot 3 — `CLAUDE.md` open showing the project overview, review workflow, and safety rules
 
-Add your screenshot here.
+![](screenshots/W8A6T2S3.png)
 
 ---
 
@@ -54,13 +54,13 @@ Create a Bash script that runs `terraform plan -detailed-exitcode`, converts the
 
 #### Screenshot 4 — The script open showing its destructive-change and open-ingress checks
 
-Add your screenshot here.
+![](screenshots/W8A6T3S4.png)
 
 ---
 
 #### Screenshot 5 — Terminal showing the script passes a syntax check and is executable
 
-Add your screenshot here.
+![](screenshots/W8A6T3S5.png)
 
 ---
 
@@ -74,7 +74,7 @@ Run the script against your unchanged infrastructure and confirm it reports a he
 
 #### Screenshot 6 — Script output showing a healthy result against the clean baseline
 
-Add your screenshot here.
+![](screenshots/W8A6T4S6.png)
 
 ---
 
@@ -88,13 +88,13 @@ Turn the script into a `/tf-drift-review` skill that reads the drift report, exp
 
 #### Screenshot 7 — Skill file showing the tool restrictions and safety rules
 
-Add your screenshot here.
+![](screenshots/W8A6T5S7.png)
 
 ---
 
 #### Screenshot 8 — `/tf-drift-review` output against the healthy baseline
 
-Add your screenshot here.
+![](screenshots/W8A6T5S8.png)
 
 ---
 
@@ -108,13 +108,13 @@ Deliberately introduce a change Terraform did not make — a destructive change 
 
 #### Screenshot 9 — The drift you introduced, visible in your Terraform config or the cloud console
 
-Add your screenshot here.
+![](screenshots/W8A6T6S9.png)
 
 ---
 
 #### Screenshot 10 — `/tf-drift-review` output flagging the drift and explaining the risk
 
-Add your screenshot here.
+![](screenshots/W8A6T6S10.png)
 
 ---
 
@@ -128,13 +128,13 @@ Extend the Week 2 hooks pattern with a `PreToolUse` hook that blocks any `terraf
 
 #### Screenshot 11 — `settings.json` showing the new `PreToolUse` hook
 
-Add your screenshot here.
+![](screenshots/W8A6T7S11.png)
 
 ---
 
 #### Screenshot 12 — Claude's blocked response when attempting `terraform apply` while the report is failing
 
-Add your screenshot here.
+![](screenshots/W8A6T7S12.png)
 
 ---
 
@@ -148,13 +148,13 @@ Review the recommendation, resolve the drift yourself with a human-reviewed `ter
 
 #### Screenshot 13 — `terraform apply` completing successfully after your review
 
-Add your screenshot here.
+![](screenshots/W8A6T8S13.png)
 
 ---
 
 #### Screenshot 14 — Second `/tf-drift-review` run showing a healthy result
 
-Add your screenshot here.
+![](screenshots/W8A6T8S14.png)
 
 ---
 
@@ -162,7 +162,19 @@ Add your screenshot here.
 
 Explain why this workflow needs both a fixed-rule hook that blocks `apply` outright and an AI skill that explains the risk in plain language — why isn't one of the two enough on its own?
 
-Add your answer here
+Here's a draft you can rework in your own words:
+
+**Answer:**
+
+The hook and the skill do different jobs, and each one fails without the other.
+
+The hook is a fixed rule. If the command contains `terraform apply` and the latest report says `Overall Status: FAIL`, it blocks the command every time. It doesn't depend on Claude's judgement, so it still works if Claude misreads the evidence or is talked into running apply. In my test, Claude considered the change low risk and I explicitly approved it, but the hook still blocked the command. The weakness is that the hook can't explain anything. It can't tell me why the report failed, and it can't tell a harmless tag change from a real security problem. It only sees the word FAIL.
+
+The skill is the opposite. It reads the report and the plan JSON and explains the situation in plain language. In my run it identified that the only pending change was removing the `TestDrift` tag, and that the FAIL came from an existing port 80 rule on the public load balancer rather than from anything the plan changed. A fixed rule could not work that out. But the skill is only guidance. Claude can misjudge, be persuaded, or ignore its instructions, so it can't be the only protection for a high-impact command like `apply`.
+
+So the hook gives reliable enforcement and the skill gives understanding. With only the hook, I'd be blocked without knowing why. With only the skill, safety would depend on an AI behaving correctly every time. Together, Claude explains the risk, the hook guarantees apply can't run while the report is failing, and I make the final decision.
+
+You can also mention the gap Claude pointed out: the hook matches the literal text `terraform apply`, so a command like `terraform -chdir=x apply` could slip past it. That's another reason to keep the human in the loop and not rely on a single control.
 
 ---
 
@@ -177,15 +189,15 @@ Your submission must include:
 
 # Completion Checklist
 
-- [ ] Task 1: Clean `terraform plan` baseline confirmed and workspace folders created (Screenshots 1–2)
-- [ ] Task 2: `CLAUDE.md` created with project context and safety rules (Screenshot 3)
-- [ ] Task 3: Drift check script built, passes syntax check, and is executable (Screenshots 4–5)
-- [ ] Task 4: Script run against the clean baseline shows a healthy result (Screenshot 6)
-- [ ] Task 5: `/tf-drift-review` skill created and run against the healthy baseline (Screenshots 7–8)
-- [ ] Task 6: Drift simulated and correctly flagged by the skill (Screenshots 9–10)
-- [ ] Task 7: `PreToolUse` hook created and shown blocking `apply` on a failing report (Screenshots 11–12)
-- [ ] Task 8: Drift resolved with a human-reviewed `apply`, second review shows healthy (Screenshots 13–14)
-- [ ] Notes question answered
+- [✅ Completed] Task 1: Clean `terraform plan` baseline confirmed and workspace folders created (Screenshots 1–2)
+- [✅ Completed] Task 2: `CLAUDE.md` created with project context and safety rules (Screenshot 3)
+- [✅ Completed] Task 3: Drift check script built, passes syntax check, and is executable (Screenshots 4–5)
+- [✅ Completed] Task 4: Script run against the clean baseline shows a healthy result (Screenshot 6)
+- [✅ Completed] Task 5: `/tf-drift-review` skill created and run against the healthy baseline (Screenshots 7–8)
+- [✅ Completed] Task 6: Drift simulated and correctly flagged by the skill (Screenshots 9–10)
+- [✅ Completed] Task 7: `PreToolUse` hook created and shown blocking `apply` on a failing report (Screenshots 11–12)
+- [✅ Completed] Task 8: Drift resolved with a human-reviewed `apply`, second review shows healthy (Screenshots 13–14)
+- [✅ Completed] Notes question answered
 
 ---
 
