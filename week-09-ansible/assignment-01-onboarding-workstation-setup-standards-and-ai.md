@@ -20,13 +20,13 @@ Create and activate an isolated `.venv` inside `ansible-onboarding/`, install `a
 
 #### Screenshot 1 — Terminal showing the activated `.venv` and successful `ansible --version` output
 
-Add your screenshot here.
+![](screenshots/W9A1T1S1.png)
 
 ---
 
 #### Screenshot 2 — Terminal showing successful `ansible-lint --version` output and `requirements.txt`
 
-Add your screenshot here.
+![](screenshots/W9A1T1S2.png)
 
 ---
 
@@ -40,13 +40,13 @@ Install the Ansible, YAML, and Python VS Code extensions, and create `.vscode/se
 
 #### Screenshot 3 — VS Code Extensions panel showing Ansible, YAML, and Python installed
 
-Add your screenshot here.
+![](screenshots/W9A1T2S3.png)
 
 ---
 
 #### Screenshot 4 — VS Code showing `.vscode/settings.json` and `.editorconfig`
 
-Add your screenshot here.
+![](screenshots/W9A1T2S4.png)
 
 ---
 
@@ -60,7 +60,7 @@ Create `ansible.cfg` in the project root with the team-friendly defaults and SSH
 
 #### Screenshot 5 — VS Code or terminal showing `ansible.cfg` in the project root with the supplied settings
 
-Add your screenshot here.
+![](screenshots/W9A1T3S5.png)
 
 ---
 
@@ -74,7 +74,7 @@ Generate or use an Ed25519 SSH key, load it into `ssh-agent`, and configure `~/.
 
 #### Screenshot 6 — Terminal showing `ssh-add -l` with the key loaded (do not expose private-key contents)
 
-Add your screenshot here.
+![](screenshots/W9A1T4S6.png)
 
 ---
 
@@ -88,13 +88,13 @@ Configure Git identity and the `main` default branch, install `pre-commit`, add 
 
 #### Screenshot 7 — Terminal showing `pre-commit install` output
 
-Add your screenshot here.
+![](screenshots/W9A1T5S7.png)
 
 ---
 
 #### Screenshot 8 — Terminal showing `pre-commit run --all-files` passing
 
-Add your screenshot here.
+![](screenshots/W9A1T5S8.png)
 
 ---
 
@@ -108,13 +108,13 @@ Document the workstation setup in `README.md`, including a "New Machine? Do This
 
 #### Screenshot 9 — Repository tree showing the required files
 
-Add your screenshot here.
+![](screenshots/W9A1T6S9.png)
 
 ---
 
 #### Screenshot 10 — `README.md` showing machine details and the "New Machine? Do This" checklist
 
-Add your screenshot here.
+![](screenshots/W9A1T6S10.png)
 
 ---
 
@@ -122,7 +122,17 @@ Add your screenshot here.
 
 State one thing that makes this setup team-friendly, and one pitfall you avoided (e.g. global pip, missing SSH agent). Note any corporate proxy or CA certificate steps, if applicable.
 
-Write your answer here.
+### Notes
+
+**Team-friendly feature:** Pre-commit hooks (yamllint and ansible-lint) run automatically before every commit, and all tools are installed in a project-local .venv with versions saved in requirements.txt. Every engineer gets the same environment and the same checks, so commits stay clean and consistent.
+
+**Pitfall avoided:** I avoided installing Ansible globally with sudo/apt. Ubuntu suggested "sudo apt install ansible" when the .venv wasn't active, but I created the virtual environment and installed everything inside it, so the system Python stays untouched. I also kept the SSH private key in ~/.ssh (outside the project) and excluded it through .gitignore.
+
+**Deviation (Python version):** The official ansible-lint pre-commit hook needs Python 3.14 to build its own environment, but Ubuntu 22.04 only has Python 3.10. I replaced it with a local hook that runs the ansible-lint installed in .venv. Both hooks pass in pre-commit run --all-files.
+
+**Environment:** Ubuntu 22.04.5 LTS on WSL2 (Windows), edited through VS Code Remote - WSL. Ubuntu was imported manually from the official rootfs image because the standard WSL installer hung.
+
+**Proxy / CA certificates:** Not applicable. No corporate proxy or custom CA certificate steps were needed.
 
 ---
 
@@ -135,14 +145,14 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Task 1: Isolated environment created, Ansible and lint tools installed (Screenshots 1–2)
-- [ ] Task 2: VS Code extensions and workspace settings configured (Screenshots 3–4)
-- [ ] Task 3: `ansible.cfg` created with team defaults (Screenshot 5)
-- [ ] Task 4: SSH key generated and loaded into agent (Screenshot 6)
-- [ ] Task 5: Git identity configured and pre-commit hooks passing (Screenshots 7–8)
-- [ ] Task 6: README and checklist completed (Screenshots 9–10)
-- [ ] Team-friendly choice / pitfall notes written (Notes)
-- [ ] No private keys or secrets exposed
+- [✅ Completed] Task 1: Isolated environment created, Ansible and lint tools installed (Screenshots 1–2)
+- [✅ Completed] Task 2: VS Code extensions and workspace settings configured (Screenshots 3–4)
+- [✅ Completed] Task 3: `ansible.cfg` created with team defaults (Screenshot 5)
+- [✅ Completed] Task 4: SSH key generated and loaded into agent (Screenshot 6)
+- [✅ Completed] Task 5: Git identity configured and pre-commit hooks passing (Screenshots 7–8)
+- [✅ Completed] Task 6: README and checklist completed (Screenshots 9–10)
+- [✅ Completed] Team-friendly choice / pitfall notes written (Notes)
+- [✅ Completed] No private keys or secrets exposed
 
 ---
 
