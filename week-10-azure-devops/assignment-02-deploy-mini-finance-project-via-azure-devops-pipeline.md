@@ -20,7 +20,7 @@ Import `https://github.com/pravinmishraaws/Azure-Static-Website` into Azure Repo
 
 #### Screenshot 1 — Azure Repos showing the imported repository files with `index.html` visible
 
-Add your screenshot here.
+![](screenshots/W10A2T1S1.png).
 
 ---
 
@@ -34,13 +34,13 @@ Provision a Linux VM with Terraform (ports 22/80 open), then use Ansible to inst
 
 #### Screenshot 2 — Terraform output or cloud console showing the running VM and public IP
 
-Add your screenshot here.
+![](screenshots/W10A2T2S2.png)
 
 ---
 
 #### Screenshot 3 — Terminal showing Ansible completed successfully and Nginx is active
 
-Add your screenshot here.
+![](screenshots/W10A2T2S3.png)
 
 ---
 
@@ -54,7 +54,7 @@ Create the password-based SSH Service Connection `ubuntu-nginx-ssh` pointing to 
 
 #### Screenshot 4 — SSH Service Connection configuration page showing the connection details and successful validation, with the password hidden
 
-Add your screenshot here.
+![](screenshots/W10A2T3S4.png)
 
 ---
 
@@ -68,7 +68,7 @@ Write a pipeline triggered on `main` that checks out the repo, copies files to `
 
 #### Screenshot 5 — Pipeline YAML definition open in the Azure DevOps editor
 
-Add your screenshot here.
+![](screenshots/W10A2T4S5.png)
 
 ---
 
@@ -82,13 +82,13 @@ Confirm the pipeline run succeeded (checkout, SSH connection, file transfer, rem
 
 #### Screenshot 6 — Successful Azure DevOps pipeline run log summary
 
-Add your screenshot here.
+![](screenshots/W10A2T5S6.png)
 
 ---
 
 #### Screenshot 7 — Browser showing the deployed website with the VM public IP visible
 
-Add your screenshot here.
+![](screenshots/W10A2T5S7.png)
 
 ---
 
@@ -96,7 +96,15 @@ Add your screenshot here.
 
 Include the VM public URL. Describe any issue you faced and how you fixed it (e.g. parallelism/agent-pool issues).
 
-Write your answer here.
+VM public URL: http://18.201.222.183
+
+Setup: Terraform (AWS EC2, eu-west-1) provisioned the target VM; Ansible installed Nginx and set up the ubuntu user's password. The pipeline runs on my self-hosted agent (SelfHostedPool) and deploys on every push to main.
+
+Issue 1: Ansible failed with "No module named 'passlib'" when setting the ubuntu password. I fixed it by running pip install passlib in my virtual environment and rerunning the playbook.
+
+Issue 2: The first Terraform and Ansible runs did not work from Git Bash because Ansible was not found. I ran them from Ubuntu on WSL, where Ansible was installed.
+
+No parallelism or agent-pool issues occurred. The self-hosted agent picked up the job immediately.
 
 ---
 
@@ -109,13 +117,13 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Task 1: Repository imported into Azure Repos (Screenshot 1)
-- [ ] Task 2: VM provisioned and Nginx configured (Screenshots 2–3)
-- [ ] Task 3: SSH Service Connection created and validated (Screenshot 4)
-- [ ] Task 4: YAML pipeline authored (Screenshot 5)
-- [ ] Task 5: Pipeline run succeeded and site verified (Screenshots 6–7)
-- [ ] VM URL and issue notes written (Notes)
-- [ ] No passwords, tokens, or credentials exposed
+- [c] Task 1: Repository imported into Azure Repos (Screenshot 1)
+- [C] Task 2: VM provisioned and Nginx configured (Screenshots 2–3)
+- [C] Task 3: SSH Service Connection created and validated (Screenshot 4)
+- [C] Task 4: YAML pipeline authored (Screenshot 5)
+- [C] Task 5: Pipeline run succeeded and site verified (Screenshots 6–7)
+- [C] VM URL and issue notes written (Notes)
+- [C] No passwords, tokens, or credentials exposed
 
 ---
 

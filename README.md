@@ -139,7 +139,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 06 | AWS Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/moses-avoseh_capstone-project-wrapped-a-full-production-style-activity-7500652643036549120-VmsX?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ | https://medium.com/@avoseh.mayowa/i-let-an-ai-help-audit-my-aws-account-heres-what-it-actually-did-and-didn-t-do-34b3c760a174 |
 | 07 | Azure Cloud | ✅ Completed | ✅ Solved | https://lnkd.in/p/edAW6nct | https://medium.com/@avoseh.mayowa/building-a-read-only-azure-security-audit-with-claude-code-keeping-ai-advisory-only-in-a-real-5d2b90ceaade |
 | 08 | Terraform | ✅ Completed | ✅ Solved | https://lnkd.in/p/ecrvEpCi | https://medium.com/@avoseh.mayowa/i-let-claude-review-my-terraform-drift-but-not-touch-my-infrastructure-89f0cdf50ed5 |
-| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
+| 09 | Ansible | ✅ Completed | ✅ Solved | https://lnkd.in/p/eBr3sm76 | https://medium.com/@avoseh.mayowa/letting-ai-review-my-ansible-changes-without-letting-it-touch-my-server-191eb322e379 |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
