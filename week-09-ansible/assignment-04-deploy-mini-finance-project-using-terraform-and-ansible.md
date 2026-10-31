@@ -124,7 +124,7 @@ Publish a LinkedIn post about the Terraform + Ansible deployment, mentioning the
 
 Paste your LinkedIn post URL here:
 
-`https://lnkd.in/p/euKjf9jb`
+`https://www.linkedin.com/posts/moses-avoseh_terraform-ansible-aws-share-7519825165782974464-78FA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ`
 
 ---
 

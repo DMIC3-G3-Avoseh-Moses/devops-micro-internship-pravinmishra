@@ -210,7 +210,7 @@ Publish a LinkedIn post describing the Terraform + Ansible roles deployment (clo
 
 Paste your LinkedIn post URL here:
 
-`https://lnkd.in/p/eBr3sm76`
+`https://www.linkedin.com/posts/moses-avoseh_terraform-ansible-aws-share-7519860375249461248-YbaL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ`
 
 ---
 

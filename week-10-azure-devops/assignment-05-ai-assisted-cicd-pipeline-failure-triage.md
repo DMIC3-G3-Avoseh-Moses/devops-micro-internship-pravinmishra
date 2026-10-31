@@ -20,7 +20,7 @@ Confirm the latest run on both Azure DevOps and GitHub Actions currently succeed
 
 #### Screenshot 1 — Latest run status on Azure DevOps and/or GitHub Actions showing a successful run
 
-Add your screenshot here.
+![](screenshots/W10A5T1S1.png)
 
 ---
 
@@ -34,7 +34,7 @@ Create `CLAUDE.md` describing the pipeline-triage workflow (gather → analyze �
 
 #### Screenshot 2 — `CLAUDE.md` showing the workflow and safety rules
 
-Add your screenshot here.
+![](screenshots/W10A5T2S2.png)
 
 ---
 
@@ -48,7 +48,7 @@ Build `pipeline-triage.sh`, a read-only Bash script that fetches the latest run'
 
 #### Screenshot 3 — `pipeline-triage.sh` showing the check functions and their pattern-matching conditionals
 
-Add your screenshot here.
+![](screenshots/W10A5T3S3.png)
 
 ---
 
@@ -62,7 +62,7 @@ Run the script against your current, passing pipeline and confirm it produces a 
 
 #### Screenshot 4 — Script output and report showing a healthy result with no failure category triggered
 
-Add your screenshot here.
+![](screenshots/W10A5T4S4.png)![](screenshots/W10A5T4S4i.png)
 
 ---
 
@@ -76,13 +76,13 @@ Create a Claude Code skill restricted to read-only tools (no `Write`) that runs 
 
 #### Screenshot 5 — `SKILL.md` frontmatter showing the tool restrictions and safety rules
 
-Add your screenshot here.
+![](screenshots/W10A5T5S5.png)
 
 ---
 
 #### Screenshot 6 — `/pipeline-triage` output for the healthy pipeline
 
-Add your screenshot here.
+![](screenshots/W10A5T5S6.png)![](screenshots/W10A5T5S6i.png)
 
 ---
 
@@ -96,13 +96,13 @@ Introduce one safe, obvious, and easily reversible failure (for example, an inte
 
 #### Screenshot 7 — The failed pipeline run showing the red/failed status
 
-Add your screenshot here.
+![](screenshots/W10A5T6S7.png)
 
 ---
 
 #### Screenshot 8 — `/pipeline-triage` output showing the diagnosed failure category, the quoted log evidence, and the recommended fix
 
-Add your screenshot here.
+![](screenshots/W10A5T6S8.png)![](screenshots/W10A5T6S8i.png)
 
 ---
 
@@ -116,13 +116,13 @@ Apply the recommended fix yourself, push it, confirm the pipeline succeeds again
 
 #### Screenshot 9 — The pipeline run succeeding after your fix
 
-Add your screenshot here.
+![](screenshots/W10A5T7S9.png)
 
 ---
 
 #### Screenshot 10 — Second `/pipeline-triage` output confirming the pipeline is healthy again
 
-Add your screenshot here.
+![](screenshots/W10A5T7S10.png)
 
 ---
 
@@ -130,7 +130,7 @@ Add your screenshot here.
 
 Explain, in your own words, why the skill was allowed to gather evidence and diagnose the failure but was never allowed to re-trigger the pipeline or apply the fix itself.
 
-Add your answer here
+The skill could only read: it ran a read-only script, read the sanitized report and logs, and explained the failure. That is safe because looking at evidence cannot change a pipeline or leak a secret. Re-triggering a run or applying a fix is different. It changes code, infrastructure or deployments, and it could use credentials, so a wrong guess could cause real damage. The diagnosis was also based on evidence and was only a recommendation, so a human needs to review it before acting. I applied the fix myself by reverting the bad commit, then re-ran the triage to verify recovery. Keeping diagnosis and recovery separate keeps a person responsible for every change.
 
 ---
 
@@ -146,15 +146,15 @@ Your submission must include:
 
 # Completion Checklist
 
-- [ ] Task 1: Healthy baseline confirmed on both providers before starting (Screenshot 1)
-- [ ] Task 2: `CLAUDE.md` created with the workflow and safety rules (Screenshot 2)
-- [ ] Task 3: `pipeline-triage.sh` built with all five failure-category checks (Screenshot 3)
-- [ ] Task 4: Script run against the healthy pipeline showing a clean result (Screenshot 4)
-- [ ] Task 5: `/pipeline-triage` skill created and run successfully (Screenshots 5–6)
-- [ ] Task 6: Pipeline deliberately broken and correctly diagnosed (Screenshots 7–8)
-- [ ] Task 7: Fix applied, pushed, and recovery verified (Screenshots 9–10)
-- [ ] Reflection answer written (Notes)
-- [ ] No secrets or tokens exposed
+- [✅] Task 1: Healthy baseline confirmed on both providers before starting (Screenshot 1)
+- [✅] Task 2: `CLAUDE.md` created with the workflow and safety rules (Screenshot 2)
+- [✅] Task 3: `pipeline-triage.sh` built with all five failure-category checks (Screenshot 3)
+- [✅] Task 4: Script run against the healthy pipeline showing a clean result (Screenshot 4)
+- [✅] Task 5: `/pipeline-triage` skill created and run successfully (Screenshots 5–6)
+- [✅] Task 6: Pipeline deliberately broken and correctly diagnosed (Screenshots 7–8)
+- [✅] Task 7: Fix applied, pushed, and recovery verified (Screenshots 9–10)
+- [✅] Reflection answer written (Notes)
+- [✅] No secrets or tokens exposed
 
 ---
 

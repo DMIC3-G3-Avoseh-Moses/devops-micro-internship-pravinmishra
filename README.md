@@ -95,10 +95,10 @@ This is not a course. It is an internship-style program — real deployments, re
 <!-- [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) -->
 
 <!-- Week 09 → Ansible -->
-<!-- [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) -->
+<! [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/)
 
 <!-- Week 10 → Azure DevOps CI/CD -->
-<!-- [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) -->
+<! [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/)
 
 <!-- Week 11 → Docker -->
 <!-- [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) -->
@@ -137,10 +137,10 @@ This is not a course. It is an internship-style program — real deployments, re
 | 04 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/moses-avoseh_building-a-safer-git-workflow-with-ai-assisted-share-7486384114342850560-cJ9t/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ | https://medium.com/@avoseh.mayowa/building-a-safer-git-workflow-with-ai-assisted-review-lessons-from-my-devops-project-fb56da80eec6?sharedUserId=avoseh.mayowa |
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/moses-avoseh_dmibypravinmishra-agenticai-claudecode-activity-7493077840297558016-ED8e?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ | https://medium.com/@avoseh.mayowa/building-a-read-only-ai-sprint-health-assistant-with-claude-code-jira-mcp-and-agentic-ai-beda4171625d?sharedUserId=avoseh.mayowa |
 | 06 | AWS Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/moses-avoseh_capstone-project-wrapped-a-full-production-style-activity-7500652643036549120-VmsX?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ | https://medium.com/@avoseh.mayowa/i-let-an-ai-help-audit-my-aws-account-heres-what-it-actually-did-and-didn-t-do-34b3c760a174 |
-| 07 | Azure Cloud | ✅ Completed | ✅ Solved | https://lnkd.in/p/edAW6nct | https://medium.com/@avoseh.mayowa/building-a-read-only-azure-security-audit-with-claude-code-keeping-ai-advisory-only-in-a-real-5d2b90ceaade |
-| 08 | Terraform | ✅ Completed | ✅ Solved | https://lnkd.in/p/ecrvEpCi | https://medium.com/@avoseh.mayowa/i-let-claude-review-my-terraform-drift-but-not-touch-my-infrastructure-89f0cdf50ed5 |
-| 09 | Ansible | ✅ Completed | ✅ Solved | https://lnkd.in/p/eBr3sm76 | https://medium.com/@avoseh.mayowa/letting-ai-review-my-ansible-changes-without-letting-it-touch-my-server-191eb322e379 |
-| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
+| 07 | Azure Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/moses-avoseh_just-completed-a-hands-on-ai-assisted-azure-share-7513689328489906176-I0Dl/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ | https://medium.com/@avoseh.mayowa/building-a-read-only-azure-security-audit-with-claude-code-keeping-ai-advisory-only-in-a-real-5d2b90ceaade |
+| 08 | Terraform | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/moses-avoseh_i-just-finished-a-capstone-from-the-devops-share-7516937083849003008-J9cr/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ | https://medium.com/@avoseh.mayowa/i-let-claude-review-my-terraform-drift-but-not-touch-my-infrastructure-89f0cdf50ed5 |
+| 09 | Ansible | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/moses-avoseh_terraform-ansible-aws-share-7519860375249461248-YbaL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ | https://medium.com/@avoseh.mayowa/letting-ai-review-my-ansible-changes-without-letting-it-touch-my-server-191eb322e379 |
+| 10 | Azure DevOps (CI/CD) | ✅ | ✅ | https://www.linkedin.com/posts/moses-avoseh_i-just-finished-my-devops-capstone-deploying-share-7521535285516451840-Jb8B/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ | https://medium.com/@avoseh.mayowa/i-let-an-ai-diagnose-my-broken-ci-cd-pipeline-i-didnt-let-it-fix-it-43ec7fcb6d83 |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
