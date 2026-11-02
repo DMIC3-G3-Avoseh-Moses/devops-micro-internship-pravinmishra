@@ -20,7 +20,7 @@ Clone `https://github.com/pravinmishraaws/my-react-app.git` and create a `.docke
 
 #### Screenshot 1 — Contents of the `.dockerignore` file
 
-Add your screenshot here.
+![](screenshots/W11A2T1S1.png)
 
 ---
 
@@ -34,13 +34,13 @@ Create `Dockerfile.single`, build `react-single`, and run it on port 3000.
 
 #### Screenshot 2 — Contents of `Dockerfile.single`
 
-Add your screenshot here.
+![](screenshots/W11A2T2S2.png)
 
 ---
 
 #### Screenshot 3 — Browser displaying the application running from the single-stage container
 
-Add your screenshot here.
+![](screenshots/W11A2T2S3.png)
 
 ---
 
@@ -54,13 +54,13 @@ Create a multi-stage Dockerfile with separate build and Nginx runtime stages, bu
 
 #### Screenshot 4 — Contents of the multi-stage Dockerfile
 
-Add your screenshot here.
+![](screenshots/W11A2T3S4.png)
 
 ---
 
 #### Screenshot 5 — Browser displaying the application running from the multi-stage container
 
-Add your screenshot here.
+![](screenshots/W11A2T3S5.png)
 
 ---
 
@@ -74,7 +74,7 @@ Compare the single-stage and multi-stage image sizes and calculate the percentag
 
 #### Screenshot 6 — Docker image list showing both image sizes
 
-Add your screenshot here.
+![](screenshots/W11A2T4S6.png)
 
 ---
 
@@ -88,15 +88,13 @@ Write a 5–8 line analysis covering the percentage reduction, security benefits
 
 #### Screenshot 7 — Analysis included in your submission document
 
-Add your screenshot here.
+![](screenshots/W11A2T5S7.png)
 
 ---
 
 ### Notes
 
-Write your analysis here.
-
-Write your answer here.
+The single-stage image (react-single:latest) had a content size of 509 MB, while the multi-stage image (react-multistage:latest) was 26.6 MB, a 94.8% reduction in image size. The single-stage image carries the full Node.js runtime, npm, node_modules, the source code, and build tools, whereas the multi-stage image keeps only Nginx and the compiled build/ files. Removing these components reduces the attack surface because the production container has fewer packages and tools that could contain vulnerabilities and need patching. The smaller image also needs less data transferred when pushed to or pulled from a registry, which speeds up deployment and scaling. For build caching, I copied package*.json and ran npm ci before COPY . ., so Docker reuses the cached dependency layer when only the source code changes.
 
 ---
 
@@ -106,7 +104,7 @@ Write your answer here.
 
 Optionally configure an Nginx health check, cache headers, parameterized ports via environment variables, or a lighter runtime image, and compare results.
 
-> Screenshot optional.
+>![](screenshots/W11A2T6S8.png)
 
 ---
 
@@ -122,13 +120,13 @@ Create a LinkedIn post describing what you built, what a multi-stage Docker buil
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/moses-avoseh_cut-my-react-apps-docker-image-by-948-share-7522812641006837761-vbVj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![](screenshots/W11A2T6S9.png)
 
 ---
 
@@ -142,13 +140,13 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: `.dockerignore` created (Screenshot 1)
-- [ ] Task 2: Single-stage image built and verified (Screenshots 2–3)
-- [ ] Task 3: Multi-stage image built and verified (Screenshots 4–5)
-- [ ] Task 4: Image sizes compared (Screenshot 6)
-- [ ] Task 5: Analysis written (Screenshot 7 & Notes)
-- [ ] Task 6: Optional production optimizations explored
-- [ ] No sensitive information exposed
+- [✅] Task 1: `.dockerignore` created (Screenshot 1)
+- [✅] Task 2: Single-stage image built and verified (Screenshots 2–3)
+- [✅] Task 3: Multi-stage image built and verified (Screenshots 4–5)
+- [✅] Task 4: Image sizes compared (Screenshot 6)
+- [✅] Task 5: Analysis written (Screenshot 7 & Notes)
+- [✅] Task 6: Optional production optimizations explored
+- [✅] No sensitive information exposed
 
 ---
 
