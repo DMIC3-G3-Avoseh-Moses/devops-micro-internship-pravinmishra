@@ -20,61 +20,61 @@ Run an Nginx container (`myweb`) with a Bind Mount from `~/nginx-logs` to `/var/
 
 #### Screenshot 1 — Output of `docker images`
 
-Add your screenshot here.
+![](screenshots/W11A4T1S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `docker search nginx`
 
-Add your screenshot here.
+![](screenshots/W11A4T1S2.png)
 
 ---
 
 #### Screenshot 3 — Successful `docker pull nginx` (if applicable)
 
-Add your screenshot here.
+![](screenshots/W11A4T1S3.png)
 
 ---
 
 #### Screenshot 4 — Creation of the `~/nginx-logs` directory
 
-Add your screenshot here.
+![](screenshots/W11A4T1S4.png)
 
 ---
 
 #### Screenshot 5 — Output of `docker run` with the Bind Mount
 
-Add your screenshot here.
+![](screenshots/W11A4T1S5.png)
 
 ---
 
 #### Screenshot 6 — Output of `docker ps` showing the running `myweb` container
 
-Add your screenshot here.
+![](screenshots/W11A4T1S6.png)
 
 ---
 
 #### Screenshot 7 — Browser displaying the Nginx Welcome Page
 
-Add your screenshot here.
+![](screenshots/W11A4T1S7.png)
 
 ---
 
 #### Screenshot 8 — Output of `ls ~/nginx-logs` showing `access.log` and `error.log`
 
-Add your screenshot here.
+![](screenshots/W11A4T1S8.png)
 
 ---
 
 #### Screenshot 9 — Successful removal of the container
 
-Add your screenshot here.
+![](screenshots/W11A4T1S9.png)
 
 ---
 
 #### Screenshot 10 — Output of `ls ~/nginx-logs` confirming the log files remain after the container has been removed
 
-Add your screenshot here.
+![](screenshots/W11A4T1S10.png)
 
 ---
 
@@ -88,73 +88,73 @@ Create a custom network `mynetwork` and a Docker volume `shared-data`, build and
 
 #### Screenshot 1 — Project folder structure
 
-Add your screenshot here.
+![](screenshots/W11A4T2S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `docker network create mynetwork`
 
-Add your screenshot here.
+![](screenshots/W11A4T2S2.png)
 
 ---
 
 #### Screenshot 3 — Output of `docker volume create shared-data`
 
-Add your screenshot here.
+![](screenshots/W11A4T2S3.png)
 
 ---
 
 #### Screenshot 4 — Backend Dockerfile
 
-Add your screenshot here.
+![](screenshots/W11A4T2S4.png)
 
 ---
 
 #### Screenshot 5 — Successful backend image build
 
-Add your screenshot here.
+![](screenshots/W11A4T2S5.png)
 
 ---
 
 #### Screenshot 6 — Frontend Dockerfile
 
-Add your screenshot here.
+![](screenshots/W11A4T2S6.png)
 
 ---
 
 #### Screenshot 7 — Successful frontend image build
 
-Add your screenshot here.
+![](screenshots/W11A4T2S7.png)
 
 ---
 
 #### Screenshot 8 — Output of `docker ps` showing both containers
 
-Add your screenshot here.
+![](screenshots/W11A4T2S8.png)
 
 ---
 
 #### Screenshot 9 — Successful execution of `docker exec backend curl http://localhost/write`
 
-Add your screenshot here.
+![](screenshots/W11A4T2S9.png)
 
 ---
 
 #### Screenshot 10 — Browser displaying "Hello from Backend!"
 
-Add your screenshot here.
+![](screenshots/W11A4T2S10.png)
 
 ---
 
 #### Screenshot 11 — Browser displaying "Test Data 1" after the first update
 
-Add your screenshot here.
+![](screenshots/W11A4T2S11.png)
 
 ---
 
 #### Screenshot 12 — Browser displaying "Test Data 2 - New Update" after the second update
 
-Add your screenshot here.
+![](screenshots/W11A4T2S12.png)
 
 ---
 
@@ -170,13 +170,13 @@ Create a LinkedIn post covering the assignment, Docker Hub repository, steps per
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/moses-avoseh_docker-volumes-and-bind-mounts-keeping-share-7523022480987287553-75zh/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZiz20BSL2chCMaU_0WK_2_7qktttgciMQ`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![](screenshots/W11A4T2S13.png)
 
 ---
 
@@ -190,9 +190,9 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Bind-mounted persistent logs verified before and after container removal (Screenshots 1–10)
-- [ ] Task 2: Docker volume shared between frontend and backend verified (Screenshots 1–12)
-- [ ] No sensitive information exposed
+- [✅] Task 1: Bind-mounted persistent logs verified before and after container removal (Screenshots 1–10)
+- [✅] Task 2: Docker volume shared between frontend and backend verified (Screenshots 1–12)
+- [✅] No sensitive information exposed
 
 ---
 
